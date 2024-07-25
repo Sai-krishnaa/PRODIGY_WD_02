@@ -9,13 +9,14 @@ body, html {
     overflow: hidden;
 }
 
-#backgroundVideo {
+#backgroundImage {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    object-fit: cover; /* Ensures the image covers the container */
 }
 
 .container {
@@ -28,13 +29,14 @@ body, html {
     color: white;
 }
 
-.wrapper{
+.wrapper {
     text-align: center;
     font-size: 2.3rem;
-    padding: 20px; 
+    padding: 20px;
     border-radius: 10px;
 }
-.wrapper p{
+
+.wrapper p {
     font-size: 4.1rem;
     margin-bottom: -30px;
 }
